@@ -4,6 +4,9 @@ Opening the Israeli state comptroller and other auditing data, one step at a tim
 
 ## TODO
 
+- [ ] Try to dump 66a and the PM's followup to plain text files, and do some
+simple parsing to braek the paragraphs into objects.
+  - [ ] Use Levenshtein distance python module to relate 66a and PM objets.
 - [x] Dump [yearly 2015 report][66a] to JSON
   - The yearly report contains defects for all ministries and other offices.
   - Defects are grouped into larger topics, where each topic has a defect list and a "to fix" list.
