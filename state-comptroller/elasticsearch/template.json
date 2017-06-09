@@ -1,5 +1,5 @@
 {
-  "template": "66a",
+  "template": "default",
   "settings": {
     "analysis.analyzer": {
       "default": {
@@ -18,7 +18,7 @@
         {
           "simple_analyzer": {
             "match_pattern": "regex",
-            "match": "^(sub_type|body)$",
+            "match": "^(id|preface_id|issn_number|office|keyword|body)$",
             "mapping": {
               "analyzer": "keyword"
             }
